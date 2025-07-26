@@ -129,7 +129,7 @@
                  Text="... بحث" 
                  HorizontalContentAlignment="Right"
                  FontFamily="Calibri" 
-                 FontSize="18" 
+                 FontSize="18" Foreground="Gray"
                  Margin="10,0,0,0"
                  GotFocus="SearchTextBox_GotFocus"
                  LostFocus="SearchTextBox_LostFocus"/>

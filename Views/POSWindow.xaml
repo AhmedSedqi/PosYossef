@@ -201,31 +201,57 @@
             </Border>
 
             <!-- منطقة الأزرار السفلية -->
-            <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5,0,0,0">
+                <!-- خانة الأداء المضافة -->
+                <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                    <TextBox x:Name="PaymentAmountTextBox"
+                             Width="150"
+                             Height="40"
+                             FontSize="22"
+                             TextAlignment="Right"
+                             Padding="5"
+                             BorderBrush="#CCCCCC"
+                             BorderThickness="1"
+                             VerticalContentAlignment="Center"
+                             Margin="0,0,20,0" FontFamily="Times New Roman" FontWeight="Black"
+                             Text="0.00"/>
+                    <TextBlock Text="المبلغ المدفوع" FontFamily="Calibri" FontWeight="Bold"
+                               FontSize="19"
+                               Margin="0,0,70,0"
+                               VerticalAlignment="Center"/>
+                </StackPanel>
+
                 <!-- زر حفظ الفاتورة -->
-                <Button Style="{StaticResource ActionButtonStyle}" Margin="0,0,60,0">
+                <Button Style="{StaticResource ActionButtonStyle}" Margin="0,0,20,0">
                     <StackPanel Orientation="Horizontal">
-                        <Image Source="/Resources/Icons/save.png" Width="35" Height="25"/>
-                        <TextBlock Text="حفظ الفاتورة" FontWeight="Bold" FontFamily="Calibri"
-                                   FontSize="18" Margin="10,0,0,0"/>
+                        <Image Source="/Resources/Icons/save.png" Width="25" Height="25"/>
+                        <TextBlock Text="حفظ الفاتورة" FontSize="19" Margin="5,0,0,0"
+                                   FontFamily="Calibri" FontWeight="Bold"/>
                     </StackPanel>
                 </Button>
 
                 <!-- زر إلغاء الفاتورة -->
-                <Button Style="{StaticResource ActionButtonStyle}" Margin="0,0,40,0">
+                <Button Style="{StaticResource ActionButtonStyle}" Margin="0,0,20,0">
                     <StackPanel Orientation="Horizontal">
-                        <Image Source="/Resources/Icons/cancel.png" Width="35" Height="25"/>
-                        <TextBlock Text="إلغاء الفاتورة" FontWeight="Bold" FontFamily="Calibri"
-                                   FontSize="18" Margin="10,0,0,0"/>
+                        <Image Source="/Resources/Icons/cancel.png" Width="25" Height="25"/>
+                        <TextBlock Text="إلغاء الفاتورة" FontSize="19" Margin="5,0,0,0"
+                                   FontFamily="Calibri" FontWeight="Bold"/>
                     </StackPanel>
                 </Button>
 
-                <!-- مربع البحث -->
-                <Border Margin="300,0,0,0" BorderBrush="Gray" BorderThickness="1" CornerRadius="10" Padding="5">
+                <!-- مربع البحث (تم نقله لليمين) -->
+                <Border Margin="50,0,0,0" 
+                        BorderBrush="Gray" 
+                        BorderThickness="1" 
+                        CornerRadius="10" 
+                        Padding="5">
                     <StackPanel Orientation="Horizontal">
                         <Image Source="/Resources/Icons/search.png" Width="25" Height="25"/>
-                        <TextBox x:Name="SearchBox" Text="... بحث" Width="200" 
-                                 FontSize="18" Margin="5,0,0,0"
+                        <TextBox x:Name="SearchBox" BorderThickness="0"
+                                 Text="... بحث" FontFamily="Calibri" Foreground="Gray"
+                                 Width="200" HorizontalContentAlignment="Right"
+                                 FontSize="18" 
+                                 Margin="5,0,0,0"
                                  GotFocus="SearchBox_GotFocus"
                                  LostFocus="SearchBox_LostFocus"/>
                     </StackPanel>
