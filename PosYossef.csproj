@@ -121,7 +121,12 @@
     <Resource Include="Resources\Icons\add.png" />
     <Resource Include="Resources\Icons\delete.png" />
     <Resource Include="Resources\Icons\edit.png" />
+  </ItemGroup>
+  <ItemGroup>
     <Resource Include="Resources\Icons\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Icons\plus.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -69,7 +69,22 @@
 
             <!-- شريط الفئات العلوي (#ffd04d) -->
             <Border Grid.Row="0" Background="#ffd04d">
-                <!-- سيتم إضافة فئات المنتجات هنا لاحقاً -->
+                <Grid>
+                    <ScrollViewer HorizontalScrollBarVisibility="Auto">
+                        <StackPanel Orientation="Horizontal">
+                            <!-- ستحتوي على فئات المنتجات لاحقاً -->
+                        </StackPanel>
+                    </ScrollViewer>
+
+                    <Button Style="{DynamicResource AddCategoryButtonStyle}" ToolTip="إضافة فئة جديدة"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Center"
+                Margin="0,0,25,0">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="/Resources/Icons/plus.png" Width="35" Height="35"/>
+                        </StackPanel>
+                    </Button>
+                </Grid>
             </Border>
 
             <!-- إطار المنتجات (570 بكسل) -->
@@ -89,7 +104,7 @@
                 </Button>
 
                 <!-- زر التعديل -->
-                <Button Style="{DynamicResource ActionButtonStyle}" ToolTip="تعديل" Margin="40,0,0,0">
+                <Button Style="{DynamicResource ActionButtonStyle}" ToolTip="تعديل منتج" Margin="40,0,0,0">
                     <StackPanel Orientation="Horizontal">
                         <Image Source="/Resources/Icons/edit.png" Width="25" Height="25"/>
                         <TextBlock Text="تعديل" FontWeight="Bold" FontFamily="Calibri" FontSize="18" Margin="10,0,0,0"/>
@@ -97,7 +112,7 @@
                 </Button>
 
                 <!-- زر الحذف -->
-                <Button Style="{DynamicResource ActionButtonStyle}" ToolTip="حذف" Margin="40,0,0,0">
+                <Button Style="{DynamicResource ActionButtonStyle}" ToolTip="حذف منتج" Margin="40,0,0,0">
                     <StackPanel Orientation="Horizontal">
                         <Image Source="/Resources/Icons/delete.png" Width="25" Height="25"/>
                         <TextBlock Text="حذف" FontWeight="Bold" FontFamily="Calibri" FontSize="18" Margin="10,0,0,0"/>
@@ -108,8 +123,16 @@
                 <Border Margin="500,0,0,0" BorderBrush="Gray" BorderThickness="1" CornerRadius="10" Padding="5">
                     <StackPanel Orientation="Horizontal">
                         <Image Source="/Resources/Icons/search.png" Width="25" Height="25"/>
-                        <TextBox BorderThickness="0" Width="200" Text="... بحث" HorizontalContentAlignment="Right"
-                                 FontFamily="Calibri" FontSize="18" Margin="10,0,0,0"/>
+                        <TextBox x:Name="SearchTextBox" 
+                 BorderThickness="0" 
+                 Width="200" 
+                 Text="... بحث" 
+                 HorizontalContentAlignment="Right"
+                 FontFamily="Calibri" 
+                 FontSize="18" 
+                 Margin="10,0,0,0"
+                 GotFocus="SearchTextBox_GotFocus"
+                 LostFocus="SearchTextBox_LostFocus"/>
                     </StackPanel>
                 </Border>
             </StackPanel>
@@ -157,6 +180,22 @@
                     </Trigger.EnterActions>
                 </Trigger>
             </Style.Triggers>
+        </Style>
+
+        <!-- ستايل زر إضافة الفئة -->
+        <Style x:Key="AddCategoryButtonStyle" TargetType="Button">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="Transparent">
+                            <ContentPresenter/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
         </Style>
 
     </Window.Resources>

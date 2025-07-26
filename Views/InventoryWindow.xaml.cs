@@ -37,5 +37,30 @@ namespace PosYossef.Views
 
             base.OnClosed(e);
         }
+
+        private void SearchTextBox_GotFocus(object sender, RoutedEventArgs e)
+        {
+            if (SearchTextBox.Text == "... بحث")
+            {
+                SearchTextBox.Text = "";
+            }
+        }
+
+        private void SearchTextBox_LostFocus(object sender, RoutedEventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(SearchTextBox.Text))
+            {
+                SearchTextBox.Text = "... بحث";
+            }
+        }
+
+        // في ملف Code-Behind
+        private void SearchTextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            if (SearchTextBox.Text != "... بحث")
+            {
+                // سيتم تنفيذ البحث هنا لاحقاً
+            }
+        }
     }
 }
