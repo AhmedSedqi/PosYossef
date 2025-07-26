@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
+
 namespace PosYossef.Views
 {
     /// <summary>
@@ -61,6 +62,26 @@ namespace PosYossef.Views
             {
                 // سيتم تنفيذ البحث هنا لاحقاً
             }
+        }
+
+        private void POSButton_Click(object sender, RoutedEventArgs e)
+        {
+            var posWindow = new POSWindow();
+
+            // تعيين نفس موقع وقياس النافذة الرئيسية
+            posWindow.Left = this.Left;
+            posWindow.Top = this.Top;
+            posWindow.Width = this.Width;
+            posWindow.Height = this.Height;
+            posWindow.WindowState = this.WindowState;
+
+            // إخفاء النافذة الحالية بعد تحميل النافذة الجديدة
+            posWindow.Loaded += (s, args) => this.Hide();
+
+            // إعادة عرض النافذة الرئيسية عند إغلاق نافذة البيع
+            posWindow.Closed += (s, args) => this.Show();
+
+            posWindow.Show();
         }
     }
 }

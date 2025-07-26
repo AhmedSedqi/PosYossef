@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "D:\\PosYossef\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5C2BDE6A-E1ED-4E3A-B6F1-F2F1D01D1209}|PosYossef.csproj|d:\\posyossef\\views\\inventorywindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{5C2BDE6A-E1ED-4E3A-B6F1-F2F1D01D1209}|PosYossef.csproj|solutionrelative:views\\inventorywindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{5C2BDE6A-E1ED-4E3A-B6F1-F2F1D01D1209}|PosYossef.csproj|d:\\posyossef\\views\\poswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5C2BDE6A-E1ED-4E3A-B6F1-F2F1D01D1209}|PosYossef.csproj|solutionrelative:views\\poswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C2BDE6A-E1ED-4E3A-B6F1-F2F1D01D1209}|PosYossef.csproj|D:\\PosYossef\\views\\inventorywindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C2BDE6A-E1ED-4E3A-B6F1-F2F1D01D1209}|PosYossef.csproj|solutionrelative:views\\inventorywindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5C2BDE6A-E1ED-4E3A-B6F1-F2F1D01D1209}|PosYossef.csproj|d:\\posyossef\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5C2BDE6A-E1ED-4E3A-B6F1-F2F1D01D1209}|PosYossef.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5C2BDE6A-E1ED-4E3A-B6F1-F2F1D01D1209}|PosYossef.csproj|D:\\PosYossef\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{5C2BDE6A-E1ED-4E3A-B6F1-F2F1D01D1209}|PosYossef.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C2BDE6A-E1ED-4E3A-B6F1-F2F1D01D1209}|PosYossef.csproj|d:\\posyossef\\views\\poswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C2BDE6A-E1ED-4E3A-B6F1-F2F1D01D1209}|PosYossef.csproj|solutionrelative:views\\poswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5C2BDE6A-E1ED-4E3A-B6F1-F2F1D01D1209}|PosYossef.csproj|D:\\PosYossef\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -35,26 +39,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "InventoryWindow.xaml.cs",
-              "DocumentMoniker": "D:\\PosYossef\\Views\\InventoryWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\InventoryWindow.xaml.cs",
-              "ToolTip": "D:\\PosYossef\\Views\\InventoryWindow.xaml.cs",
-              "RelativeToolTip": "Views\\InventoryWindow.xaml.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAnwBcAAAAMAAAAAAAAAA==",
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\PosYossef\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "D:\\PosYossef\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-26T17:01:26.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "POSWindow.xaml.cs",
+              "DocumentMoniker": "D:\\PosYossef\\Views\\POSWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\POSWindow.xaml.cs",
+              "ToolTip": "D:\\PosYossef\\Views\\POSWindow.xaml.cs",
+              "RelativeToolTip": "Views\\POSWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBgAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T22:47:06.43Z",
+              "WhenOpened": "2025-07-26T16:01:50.73Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "InventoryWindow.xaml",
-              "DocumentMoniker": "D:\\PosYossef\\Views\\InventoryWindow.xaml",
-              "RelativeDocumentMoniker": "Views\\InventoryWindow.xaml",
-              "ToolTip": "D:\\PosYossef\\Views\\InventoryWindow.xaml",
-              "RelativeToolTip": "Views\\InventoryWindow.xaml",
+              "Title": "POSWindow.xaml",
+              "DocumentMoniker": "D:\\PosYossef\\Views\\POSWindow.xaml",
+              "RelativeDocumentMoniker": "Views\\POSWindow.xaml",
+              "ToolTip": "D:\\PosYossef\\Views\\POSWindow.xaml",
+              "RelativeToolTip": "Views\\POSWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-25T22:37:44.342Z",
+              "WhenOpened": "2025-07-26T16:01:33.924Z",
               "EditorCaption": ""
             },
             {
@@ -66,19 +82,21 @@
               "ToolTip": "D:\\PosYossef\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-25T20:39:40.842Z"
+              "WhenOpened": "2025-07-25T20:39:40.842Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\PosYossef\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "D:\\PosYossef\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAowBkAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAYwD8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T20:39:38.964Z"
+              "WhenOpened": "2025-07-25T20:39:38.964Z",
+              "EditorCaption": ""
             }
           ]
         }

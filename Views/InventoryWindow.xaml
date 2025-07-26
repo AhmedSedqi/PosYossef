@@ -16,40 +16,40 @@
         <Border Width="80" Background="#420119" HorizontalAlignment="Left">
             <StackPanel VerticalAlignment="Top" Margin="0,25,0,0">
                 <!-- نفس أزرار التنقل كما في MainWindow -->
-                <Button Style="{DynamicResource NavButtonStyle}" ToolTip="المخزون">
+                <Button Style="{StaticResource NavButtonStyle}" ToolTip="المخزون">
                     <Image Source="/Resources/Icons/inventory.png" Width="35" Height="35"/>
                 </Button>
-                <Button Style="{DynamicResource NavButtonStyle}" ToolTip="القيام بعملية بيع جديدة">
+                <Button Style="{StaticResource NavButtonStyle}" ToolTip="القيام بعملية بيع جديدة" Click="POSButton_Click">
                     <Image Source="/Resources/Icons/pos.png" Width="35" Height="35" Margin="0,25,0,0"/>
                 </Button>
 
                 <!-- زر الفواتير -->
-                <Button Style="{DynamicResource NavButtonStyle}" ToolTip="فواتير البيع">
+                <Button Style="{StaticResource NavButtonStyle}" ToolTip="فواتير البيع">
                     <Image Source="/Resources/Icons/invoices.png" Width="35" Height="35" Margin="0,25,0,0"/>
                 </Button>
 
                 <!-- زر الديون -->
-                <Button Style="{DynamicResource NavButtonStyle}" ToolTip="ديون الزبائن والموردين">
+                <Button Style="{StaticResource NavButtonStyle}" ToolTip="ديون الزبائن والموردين">
                     <Image Source="/Resources/Icons/debts.png" Width="35" Height="35" Margin="0,25,0,0"/>
                 </Button>
 
                 <!-- زر العملاء -->
-                <Button Style="{DynamicResource NavButtonStyle}" ToolTip="معلومات الزبائن والموردين">
+                <Button Style="{StaticResource NavButtonStyle}" ToolTip="معلومات الزبائن والموردين">
                     <Image Source="/Resources/Icons/customers.png" Width="35" Height="35" Margin="0,25,0,0"/>
                 </Button>
 
                 <!-- زر التقارير -->
-                <Button Style="{DynamicResource NavButtonStyle}" ToolTip="تقارير البيع والشراء">
+                <Button Style="{StaticResource NavButtonStyle}" ToolTip="تقارير البيع والشراء">
                     <Image Source="/Resources/Icons/reports.png" Width="35" Height="35" Margin="0,25,0,0"/>
                 </Button>
 
                 <!-- زر الزكاة -->
-                <Button Style="{DynamicResource NavButtonStyle}" ToolTip="حساب مقدار الزكاة">
+                <Button Style="{StaticResource NavButtonStyle}" ToolTip="حساب مقدار الزكاة">
                     <Image Source="/Resources/Icons/zakat.png" Width="35" Height="35" Margin="0,25,0,0"/>
                 </Button>
 
                 <!-- زر الخروج -->
-                <Button Style="{DynamicResource NavButtonStyle}" Margin="0,170,0,0" ToolTip="الخروج">
+                <Button Style="{StaticResource NavButtonStyle}" Margin="0,170,0,0" ToolTip="الخروج">
                     <Image Source="/Resources/Icons/exit.png" Width="35" Height="35"/>
                 </Button>
                 
@@ -57,7 +57,7 @@
         </Border>
 
         <!-- المنطقة الرئيسية -->
-        <Grid Margin="80,0,0,0" Background="#eddae1">
+        <Grid Margin="80,0,0,0" Background="#f5f5f5">
             <Grid.RowDefinitions>
                 <RowDefinition Height="50"/>
                 <!-- شريط الفئات العلوي -->
@@ -96,7 +96,7 @@
             <!-- منطقة الأزرار السفلية -->
             <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,20">
                 <!-- زر الإضافة -->
-                <Button Style="{DynamicResource ActionButtonStyle}" ToolTip="إضافة منتج">
+                <Button Style="{StaticResource ActionButtonStyle}" ToolTip="إضافة منتج">
                     <StackPanel Orientation="Horizontal">
                         <Image Source="/Resources/Icons/add.png" Width="25" Height="25"/>
                         <TextBlock Text="إضافة" FontWeight="Bold" FontFamily="Calibri" FontSize="18" Margin="10,0,0,0"/>
@@ -104,7 +104,7 @@
                 </Button>
 
                 <!-- زر التعديل -->
-                <Button Style="{DynamicResource ActionButtonStyle}" ToolTip="تعديل منتج" Margin="40,0,0,0">
+                <Button Style="{StaticResource ActionButtonStyle}" ToolTip="تعديل منتج" Margin="40,0,0,0">
                     <StackPanel Orientation="Horizontal">
                         <Image Source="/Resources/Icons/edit.png" Width="25" Height="25"/>
                         <TextBlock Text="تعديل" FontWeight="Bold" FontFamily="Calibri" FontSize="18" Margin="10,0,0,0"/>
@@ -112,7 +112,7 @@
                 </Button>
 
                 <!-- زر الحذف -->
-                <Button Style="{DynamicResource ActionButtonStyle}" ToolTip="حذف منتج" Margin="40,0,0,0">
+                <Button Style="{StaticResource ActionButtonStyle}" ToolTip="حذف منتج" Margin="40,0,0,0">
                     <StackPanel Orientation="Horizontal">
                         <Image Source="/Resources/Icons/delete.png" Width="25" Height="25"/>
                         <TextBlock Text="حذف" FontWeight="Bold" FontFamily="Calibri" FontSize="18" Margin="10,0,0,0"/>
@@ -140,47 +140,7 @@
     </Grid>
 
     <Window.Resources>
-        <!-- ستايل الأزرار الجانبية (نفس MainWindow) -->
-        <Style x:Key="NavButtonStyle" TargetType="Button">
-            <Setter Property="Background" Value="Transparent"/>
-            <Setter Property="BorderThickness" Value="0"/>
-            <Setter Property="Margin" Value="0,15,0,0"/>
-            <Setter Property="Cursor" Value="Hand"/>
-            <Setter Property="Template">
-                <Setter.Value>
-                    <ControlTemplate TargetType="Button">
-                        <Border Background="Transparent">
-                            <ContentPresenter/>
-                        </Border>
-                    </ControlTemplate>
-                </Setter.Value>
-            </Setter>
-        </Style>
-
-        <!-- ستايل أزرار الإجراءات -->
-        <Style x:Key="ActionButtonStyle" TargetType="Button">
-            <Setter Property="Background" Value="#420119"/>
-            <Setter Property="Foreground" Value="#ffd04d"/>
-            <Setter Property="Padding" Value="10,5"/>
-            <Setter Property="BorderThickness" Value="0"/>
-            <Setter Property="Cursor" Value="Hand"/>
-        </Style>
-
-        <Style TargetType="Window">
-            <Setter Property="Opacity" Value="0"/>
-            <Style.Triggers>
-                <Trigger Property="IsLoaded" Value="True">
-                    <Trigger.EnterActions>
-                        <BeginStoryboard>
-                            <Storyboard>
-                                <DoubleAnimation Storyboard.TargetProperty="Opacity"
-                                            To="1" Duration="0:0:0.3"/>
-                            </Storyboard>
-                        </BeginStoryboard>
-                    </Trigger.EnterActions>
-                </Trigger>
-            </Style.Triggers>
-        </Style>
+        
 
         <!-- ستايل زر إضافة الفئة -->
         <Style x:Key="AddCategoryButtonStyle" TargetType="Button">

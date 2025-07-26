@@ -4,10 +4,14 @@ D:\PosYossef\bin\Debug\PosYossef.pdb
 D:\PosYossef\obj\Debug\PosYossef.csproj.AssemblyReference.cache
 D:\PosYossef\obj\Debug\MainWindow.baml
 D:\PosYossef\obj\Debug\Views\InventoryWindow.baml
+D:\PosYossef\obj\Debug\Views\POSWindow.baml
 D:\PosYossef\obj\Debug\MainWindow.g.cs
 D:\PosYossef\obj\Debug\Views\InventoryWindow.g.cs
+D:\PosYossef\obj\Debug\Views\POSWindow.g.cs
 D:\PosYossef\obj\Debug\App.g.cs
 D:\PosYossef\obj\Debug\PosYossef_MarkupCompile.cache
+D:\PosYossef\obj\Debug\PosYossef_MarkupCompile.lref
+D:\PosYossef\obj\Debug\App.baml
 D:\PosYossef\obj\Debug\PosYossef.g.resources
 D:\PosYossef\obj\Debug\PosYossef.Properties.Resources.resources
 D:\PosYossef\obj\Debug\PosYossef.csproj.GenerateResource.cache

@@ -19,7 +19,7 @@
                 </Button>
 
                 <!-- زر نقطة البيع -->
-                <Button Style="{DynamicResource NavButtonStyle}" ToolTip="القيام بعملية بيع جديدة">
+                <Button Style="{DynamicResource NavButtonStyle}" ToolTip="القيام بعملية بيع جديدة" Click="POSButton_Click">
                     <Image Source="/Resources/Icons/pos.png" Width="35" Height="35" Margin="0,25,0,0"/>
                 </Button>
 
@@ -57,7 +57,7 @@
         </Border>
 
         <!-- المنطقة الرئيسية -->
-        <Border Background="#eddae1" Margin="80,0,0,0">
+        <Border Background="#f5f5f5" Margin="80,0,0,0">
 
             <TextBlock Text="يقول المولى عز وجل: يَا أَيُّهَا الَّذِينَ آمَنُوا لَا تَأْكُلُوا أَمْوَالَكُم بَيْنَكُم بِالْبَاطِلِ إِلَّا أَن تَكُونَ تِجَارَةً عَن تَرَاضٍ مِّنكُمْ.   النساء 29" 
                        HorizontalAlignment="Center" 
