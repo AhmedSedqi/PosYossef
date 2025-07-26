@@ -1,0 +1,88 @@
+﻿<Window x:Class="PosYossef.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="PosYossef - Système de Vente" 
+        Height="800" Width="1400"
+        WindowStartupLocation="CenterScreen"
+        FontFamily="Segoe UI"
+        WindowStyle="SingleBorderWindow"
+        ResizeMode="CanResize">
+
+    <Grid>
+        <!-- الشريط الجانبي -->
+        <Border Width="80" Background="#420119" HorizontalAlignment="Left">
+            <StackPanel VerticalAlignment="Top" Margin="0,25,0,0">
+
+                <!-- الأزرار ستكون هنا -->
+                <Button Style="{DynamicResource NavButtonStyle}" ToolTip="المخزون" Click="InventoryButton_Click">
+                    <Image Source="/Resources/Icons/inventory.png" Width="35" Height="35" />
+                </Button>
+
+                <!-- زر نقطة البيع -->
+                <Button Style="{DynamicResource NavButtonStyle}" ToolTip="القيام بعملية بيع جديدة">
+                    <Image Source="/Resources/Icons/pos.png" Width="35" Height="35" Margin="0,25,0,0"/>
+                </Button>
+
+                <!-- زر الفواتير -->
+                <Button Style="{DynamicResource NavButtonStyle}" ToolTip="فواتير البيع">
+                    <Image Source="/Resources/Icons/invoices.png" Width="35" Height="35" Margin="0,25,0,0"/>
+                </Button>
+
+                <!-- زر الديون -->
+                <Button Style="{DynamicResource NavButtonStyle}" ToolTip="ديون الزبائن والموردين">
+                    <Image Source="/Resources/Icons/debts.png" Width="35" Height="35" Margin="0,25,0,0"/>
+                </Button>
+
+                <!-- زر العملاء -->
+                <Button Style="{DynamicResource NavButtonStyle}" ToolTip="معلومات الزبائن والموردين">
+                    <Image Source="/Resources/Icons/customers.png" Width="35" Height="35" Margin="0,25,0,0"/>
+                </Button>
+
+                <!-- زر التقارير -->
+                <Button Style="{DynamicResource NavButtonStyle}" ToolTip="تقارير البيع والشراء">
+                    <Image Source="/Resources/Icons/reports.png" Width="35" Height="35" Margin="0,25,0,0"/>
+                </Button>
+
+                <!-- زر الزكاة -->
+                <Button Style="{DynamicResource NavButtonStyle}" ToolTip="حساب مقدار الزكاة">
+                    <Image Source="/Resources/Icons/zakat.png" Width="35" Height="35" Margin="0,25,0,0"/>
+                </Button>
+
+                <!-- زر الخروج -->
+                <Button Style="{DynamicResource NavButtonStyle}" Margin="0,170,0,0" ToolTip="الخروج">
+                    <Image Source="/Resources/Icons/exit.png" Width="35" Height="35"/>
+                </Button>
+
+            </StackPanel>
+        </Border>
+
+        <!-- المنطقة الرئيسية -->
+        <Border Background="#eddae1" Margin="80,0,0,0">
+
+            <TextBlock Text="يقول المولى عز وجل: يَا أَيُّهَا الَّذِينَ آمَنُوا لَا تَأْكُلُوا أَمْوَالَكُم بَيْنَكُم بِالْبَاطِلِ إِلَّا أَن تَكُونَ تِجَارَةً عَن تَرَاضٍ مِّنكُمْ.   النساء 29" 
+                       HorizontalAlignment="Center" 
+                       VerticalAlignment="Top"
+                       FontSize="34" FontFamily="Traditional Arabic"/>
+        </Border>
+    </Grid>
+
+    <Window.Resources>
+        <!-- ستايل الأزرار الجانبية -->
+        <Style x:Key="NavButtonStyle" TargetType="Button">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Margin" Value="0,15,0,0"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="Transparent">
+                            <ContentPresenter/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+
+</Window>
