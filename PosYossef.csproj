@@ -58,6 +58,9 @@
     <Compile Include="Views\InventoryWindow.xaml.cs">
       <DependentUpon>InventoryWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\InvoicesWindow.xaml.cs">
+      <DependentUpon>InvoicesWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\POSWindow.xaml.cs">
       <DependentUpon>POSWindow.xaml</DependentUpon>
     </Compile>
@@ -74,6 +77,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="Views\InventoryWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\InvoicesWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -144,6 +151,18 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\Icons\suprimer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Icons\printer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Icons\trash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Icons\whatsapp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Icons\editfact.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

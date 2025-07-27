@@ -24,7 +24,7 @@
                 </Button>
 
                 <!-- زر الفواتير -->
-                <Button Style="{StaticResource NavButtonStyle}" ToolTip="فواتير البيع">
+                <Button Style="{StaticResource NavButtonStyle}" ToolTip="فواتير البيع" Click="InvoicesButton_Click">
                     <Image Source="/Resources/Icons/invoices.png" Width="35" Height="35" Margin="0,25,0,0"/>
                 </Button>
 

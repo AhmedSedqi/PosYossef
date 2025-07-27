@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 D:\PosYossef\App.xaml
-3301158895
+4-1079149905
 
-72039587035
+8-169807345
 13-38814620
-MainWindow.xaml;Views\InventoryWindow.xaml;Views\POSWindow.xaml;
+MainWindow.xaml;Views\InventoryWindow.xaml;Views\InvoicesWindow.xaml;Views\POSWindow.xaml;
 
 False
 

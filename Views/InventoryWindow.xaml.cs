@@ -83,5 +83,23 @@ namespace PosYossef.Views
 
             posWindow.Show();
         }
+
+        private void InvoicesButton_Click(object sender, RoutedEventArgs e)
+        {
+            var invoicesWindow = new InvoicesWindow
+            {
+                Owner = this,
+                Left = this.Left,
+                Top = this.Top,
+                Width = this.Width,
+                Height = this.Height
+            };
+
+            this.Hide();
+            invoicesWindow.ShowDialog();
+            this.Show();
+        }
+
+
     }
 }

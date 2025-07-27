@@ -201,7 +201,7 @@
             </Border>
 
             <!-- منطقة الأزرار السفلية -->
-            <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5,0,0,0">
+            <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="5,0,0,0">
                 <!-- خانة الأداء المضافة -->
                 <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
                     <TextBox x:Name="PaymentAmountTextBox"
@@ -217,12 +217,12 @@
                              Text="0.00"/>
                     <TextBlock Text="المبلغ المدفوع" FontFamily="Calibri" FontWeight="Bold"
                                FontSize="19"
-                               Margin="0,0,70,0"
+                               Margin="0,0,50,0"
                                VerticalAlignment="Center"/>
                 </StackPanel>
 
                 <!-- زر حفظ الفاتورة -->
-                <Button Style="{StaticResource ActionButtonStyle}" Margin="0,0,20,0">
+                <Button Style="{StaticResource ActionButtonStyle}" Margin="0,0,15,0" Background="Green">
                     <StackPanel Orientation="Horizontal">
                         <Image Source="/Resources/Icons/save.png" Width="25" Height="25"/>
                         <TextBlock Text="حفظ الفاتورة" FontSize="19" Margin="5,0,0,0"
@@ -230,8 +230,15 @@
                     </StackPanel>
                 </Button>
 
+                <!-- زر طباعة الفاتورة -->
+                <Button Style="{StaticResource ActionButtonStyle}" Margin="0,0,15,0" ToolTip="طباعة الفاتورة">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="/Resources/Icons/printer.png" Width="25" Height="25"/>
+                    </StackPanel>
+                </Button>
+
                 <!-- زر إلغاء الفاتورة -->
-                <Button Style="{StaticResource ActionButtonStyle}" Margin="0,0,20,0">
+                <Button Style="{StaticResource ActionButtonStyle}" Margin="0,0,15,0" Background="Red">
                     <StackPanel Orientation="Horizontal">
                         <Image Source="/Resources/Icons/cancel.png" Width="25" Height="25"/>
                         <TextBlock Text="إلغاء الفاتورة" FontSize="19" Margin="5,0,0,0"
@@ -240,7 +247,7 @@
                 </Button>
 
                 <!-- مربع البحث (تم نقله لليمين) -->
-                <Border Margin="50,0,0,0" 
+                <Border Margin="30,0,0,0" 
                         BorderBrush="Gray" 
                         BorderThickness="1" 
                         CornerRadius="10" 

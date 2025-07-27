@@ -3,28 +3,32 @@
   "WorkspaceRootPath": "D:\\PosYossef\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5C2BDE6A-E1ED-4E3A-B6F1-F2F1D01D1209}|PosYossef.csproj|d:\\posyossef\\views\\poswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{5C2BDE6A-E1ED-4E3A-B6F1-F2F1D01D1209}|PosYossef.csproj|solutionrelative:views\\poswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{5C2BDE6A-E1ED-4E3A-B6F1-F2F1D01D1209}|PosYossef.csproj|d:\\posyossef\\views\\invoiceswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5C2BDE6A-E1ED-4E3A-B6F1-F2F1D01D1209}|PosYossef.csproj|solutionrelative:views\\invoiceswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C2BDE6A-E1ED-4E3A-B6F1-F2F1D01D1209}|PosYossef.csproj|d:\\posyossef\\views\\invoiceswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C2BDE6A-E1ED-4E3A-B6F1-F2F1D01D1209}|PosYossef.csproj|solutionrelative:views\\invoiceswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5C2BDE6A-E1ED-4E3A-B6F1-F2F1D01D1209}|PosYossef.csproj|d:\\posyossef\\views\\inventorywindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{5C2BDE6A-E1ED-4E3A-B6F1-F2F1D01D1209}|PosYossef.csproj|solutionrelative:views\\inventorywindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C2BDE6A-E1ED-4E3A-B6F1-F2F1D01D1209}|PosYossef.csproj|D:\\PosYossef\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{5C2BDE6A-E1ED-4E3A-B6F1-F2F1D01D1209}|PosYossef.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{5C2BDE6A-E1ED-4E3A-B6F1-F2F1D01D1209}|PosYossef.csproj|d:\\posyossef\\views\\inventorywindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C2BDE6A-E1ED-4E3A-B6F1-F2F1D01D1209}|PosYossef.csproj|solutionrelative:views\\inventorywindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C2BDE6A-E1ED-4E3A-B6F1-F2F1D01D1209}|PosYossef.csproj|D:\\PosYossef\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C2BDE6A-E1ED-4E3A-B6F1-F2F1D01D1209}|PosYossef.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5C2BDE6A-E1ED-4E3A-B6F1-F2F1D01D1209}|PosYossef.csproj|D:\\PosYossef\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{5C2BDE6A-E1ED-4E3A-B6F1-F2F1D01D1209}|PosYossef.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C2BDE6A-E1ED-4E3A-B6F1-F2F1D01D1209}|PosYossef.csproj|D:\\PosYossef\\views\\poswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C2BDE6A-E1ED-4E3A-B6F1-F2F1D01D1209}|PosYossef.csproj|solutionrelative:views\\poswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C2BDE6A-E1ED-4E3A-B6F1-F2F1D01D1209}|PosYossef.csproj|D:\\PosYossef\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C2BDE6A-E1ED-4E3A-B6F1-F2F1D01D1209}|PosYossef.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5C2BDE6A-E1ED-4E3A-B6F1-F2F1D01D1209}|PosYossef.csproj|d:\\posyossef\\views\\poswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5C2BDE6A-E1ED-4E3A-B6F1-F2F1D01D1209}|PosYossef.csproj|solutionrelative:views\\poswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -37,79 +41,91 @@
           "SelectedChildIndex": 4,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InventoryWindow.xaml.cs",
+              "DocumentMoniker": "D:\\PosYossef\\Views\\InventoryWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\InventoryWindow.xaml.cs",
+              "ToolTip": "D:\\PosYossef\\Views\\InventoryWindow.xaml.cs",
+              "RelativeToolTip": "Views\\InventoryWindow.xaml.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAqwGYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T21:16:08.565Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "InventoryWindow.xaml",
               "DocumentMoniker": "D:\\PosYossef\\Views\\InventoryWindow.xaml",
               "RelativeDocumentMoniker": "Views\\InventoryWindow.xaml",
               "ToolTip": "D:\\PosYossef\\Views\\InventoryWindow.xaml",
               "RelativeToolTip": "Views\\InventoryWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-26T19:01:54.707Z",
+              "WhenOpened": "2025-07-27T21:15:31.082Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "App.xaml",
-              "DocumentMoniker": "D:\\PosYossef\\App.xaml",
-              "RelativeDocumentMoniker": "App.xaml",
-              "ToolTip": "D:\\PosYossef\\App.xaml",
-              "RelativeToolTip": "App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-26T17:01:26.036Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "POSWindow.xaml.cs",
-              "DocumentMoniker": "D:\\PosYossef\\Views\\POSWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\POSWindow.xaml.cs",
-              "ToolTip": "D:\\PosYossef\\Views\\POSWindow.xaml.cs",
-              "RelativeToolTip": "Views\\POSWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBgAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-26T16:01:50.73Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "POSWindow.xaml",
               "DocumentMoniker": "D:\\PosYossef\\Views\\POSWindow.xaml",
               "RelativeDocumentMoniker": "Views\\POSWindow.xaml",
               "ToolTip": "D:\\PosYossef\\Views\\POSWindow.xaml",
               "RelativeToolTip": "Views\\POSWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-26T16:01:33.924Z",
+              "WhenOpened": "2025-07-27T19:51:08.524Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "InvoicesWindow.xaml.cs",
+              "DocumentMoniker": "D:\\PosYossef\\Views\\InvoicesWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\InvoicesWindow.xaml.cs",
+              "ToolTip": "D:\\PosYossef\\Views\\InvoicesWindow.xaml.cs",
+              "RelativeToolTip": "Views\\InvoicesWindow.xaml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAgwBwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T19:43:28.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InvoicesWindow.xaml",
+              "DocumentMoniker": "D:\\PosYossef\\Views\\InvoicesWindow.xaml",
+              "RelativeDocumentMoniker": "Views\\InvoicesWindow.xaml",
+              "ToolTip": "D:\\PosYossef\\Views\\InvoicesWindow.xaml",
+              "RelativeToolTip": "Views\\InvoicesWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-27T19:43:21.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\PosYossef\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
               "ToolTip": "D:\\PosYossef\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-25T20:39:40.842Z"
+              "WhenOpened": "2025-07-25T20:39:40.842Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\PosYossef\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "D:\\PosYossef\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAYwD8AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAAAuwE8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T20:39:38.964Z"
+              "WhenOpened": "2025-07-25T20:39:38.964Z",
+              "EditorCaption": ""
             }
           ]
         }
